@@ -10,6 +10,7 @@
  * having to alter the framework itself.
  */
 
+$base-spacing-unit: 0px;
 
 
 
@@ -24,7 +25,7 @@
  * following variables to `true`.
  */
 $use-grids:         true;
-$use-flexbox:       false;
+$use-flexbox:       true;
 $use-columns:       false;
 $use-nav:           false;
 $use-options:       false;
@@ -48,6 +49,8 @@ $use-rules:         false;
 $use-stats:         false;
 $use-greybox:       false;
 
+$responsive:		true;
+
 
 
 
@@ -63,6 +66,8 @@ $use-greybox:       false;
 
 
 
+
+
 /*------------------------------------*\
     $CUSTOM
 \*------------------------------------*/
@@ -70,9 +75,12 @@ $use-greybox:       false;
 // Colors
 $alpha: 	#000000;
 $bravo: 	#ffffff;
-$charlie: 	#f8981c;    // Deisgn mock-up colour (Orange)
+$charlie: 	#f8981c;	// Design mock-up colour (Orange)
 $delta: 	#bcbbbb;	// Design mock-up colour (Light Grey)
 $echo: 		#747704;	// Design mock-up colour (Olive Green)
 
+// Fonts
+$base-font-size: 	15px;
+$link-weight: 		500;
 
 

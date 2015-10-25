@@ -1,0 +1,39 @@
+.headerBlock {
+	border-bottom: 10px solid $delta;
+	padding-right: 2%;
+	box-sizing: border-box;
+}
+
+.headerBlockText {
+	display: inline-block;
+}
+
+.headerBlockLogo {
+	display: inline-block;
+	margin: 0 auto 20px auto;
+}
+
+.headerTitle {
+	text-align: right;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 58px;
+	color: $delta;
+	height: 80px;
+}
+
+.headerSubTitle {
+	text-align: right;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 28px;
+
+}
+
+.logo {
+	width: 100%;
+	max-width: 370px;
+	height: auto;
+
+}
+

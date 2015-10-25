@@ -1,0 +1,101 @@
+// Laptop
+@media only screen and (max-width: 1023px) and (min-width: 481px) {
+
+}
+
+// Mobile
+@media only screen and (max-width: 480px) {
+
+	.headerBlock {
+		border-bottom: 5px solid $delta;
+	}
+
+
+	p.headerTitle {
+		font-size: 26px;
+		height: auto;
+		text-align: center;
+	}
+
+	p.headerSubTitle {
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.headerBlockLogo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	img.logo {
+		width: 50%;
+		margin: 0 25%;
+	}
+
+	.headerBlockText {
+		display: block;
+	}
+
+	.item {
+		display: block;
+		margin-right: 0;
+	}
+
+	.tabText {
+		font-size: 16px;
+	}
+
+}
+
+
+html{
+  font-size: $base-font-size;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 3045px;
+    margin: 0 auto;
+}
+
+.container {
+	padding: 2%;
+	margin: 0 27px;
+}
+
+.hero {
+	margin-top: 20px;
+}
+
+.tabTitle {
+	text-align: left;
+	font-size: 28px;
+	color: $delta;
+	padding-left: 2%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.tabText {
+	text-align: center;
+	font-size: 28px;
+	color: $echo;
+	text-transform: uppercase;
+	margin-bottom: 10%;
+}
+
+
+.item {
+	display: inline-block;
+	text-align: center;
+	margin-right: 5%;
+
+
+	&:nth-child(3) {
+		margin-right: 0
+	}
+}
+
+
+
