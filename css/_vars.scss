@@ -49,9 +49,6 @@ $use-rules:         false;
 $use-stats:         false;
 $use-greybox:       false;
 
-$responsive:		true;
-
-
 
 
 
@@ -62,7 +59,7 @@ $responsive:		true;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-
+$responsive:		true;
 
 
 
@@ -73,8 +70,8 @@ $responsive:		true;
 \*------------------------------------*/
 
 // Colors
-$alpha: 	#000000;
-$bravo: 	#ffffff;
+$alpha: 	#000;
+$bravo: 	#fff;
 $charlie: 	#f8981c;	// Design mock-up colour (Orange)
 $delta: 	#bcbbbb;	// Design mock-up colour (Light Grey)
 $echo: 		#747704;	// Design mock-up colour (Olive Green)
