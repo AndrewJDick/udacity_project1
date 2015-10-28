@@ -1,49 +1,41 @@
 // Tablet
 @media only screen and (max-width: 1023px) and (min-width: 481px) {
 
-	p {
+	h1.headerTitle {
+		font-size: 40px;
+		height: auto;
+	}
 
-		&.headerTitle {
-			font-size: 30px;
-			height: auto;
-		}
+	h2.headerSubtitle {
+		font-size: 28px;
+	}
 
-		&.headerSubTitle {
-			font-size: 18px;
-		}
-
-		&.tabText {
-			font-size: 18px;
-		}
-
+	h4.tabText {
+		font-size: 18px;
 	}
 }
 
 // Mobile
 @media only screen and (max-width: 480px) {
 
-	p {
+	h1.headerTitle {
+		font-size: 26px;
+		height: auto;
+		text-align: center;
+	}
 
-		&.headerTitle {
-			font-size: 26px;
-			height: auto;
-			text-align: center;
-		}
+	h2.headerSubtitle {
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 
-		&.headerSubTitle {
-			font-size: 16px;
-			text-align: center;
-			margin-bottom: 20px;
-		}
+	h3.tabTitle {
+		font-size: 20px;
+	}
 
-		&.tabTitle {
-			font-size: 20px;
-		}
-
-		&.tabText {
-			font-size: 16px;
-		}
-
+	h4.tabText {
+		font-size: 16px;
 	}
 
 	img.logo {
@@ -93,21 +85,23 @@ html {
 	margin-top: 20px;
 }
 
-.tabTitle {
+h3.tabTitle {
 	text-align: left;
 	font-size: 28px;
 	color: $delta;
 	padding-left: 2%;
 	margin-top: 20px;
 	margin-bottom: 10px;
+	font-weight: 300;
 }
 
-.tabText {
+h4.tabText {
 	text-align: center;
 	font-size: 28px;
 	color: $echo;
 	text-transform: uppercase;
 	margin-bottom: 10%;
+	font-weight: 300;
 }
 
 

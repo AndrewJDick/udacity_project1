@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-
+    <meta name="description" content="Udacity Project One: Building a responsive portfolio site">
+	<meta name="author" content="Andrew James Dick">
     <title>P1: Build a Portfolio Site </title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
 	<div class="grid wrapper">
@@ -26,70 +28,74 @@
 	         --><div class="grid__item five-sixths palm-one-whole headerBlockText">
 
 	        		<div class="grid__item one-whole">
-	        			<p class="headerTitle">Andrew James Dick</p>
+	        			<h1 class="headerTitle">Andrew James Dick</h1>
 	        		</div><!--
 
 	        	 --><div class="grid__item one-whole">
-	        	 		<p class="headerSubTitle">Front-End Ninja</p>
+	        	 		<h2 class="headerSubtitle">Front-End Ninja</h2>
 	        		</div>
 	        	</div>
 	        </header>
 
-	        <!-- Hero Image -->
-	        <section class="grid__item one-whole">
-					<img src="../img/hero.jpg" alt="Hero" title="Hero" class="hero" />
-	        </section>
+	        <!-- Main Content -->
+	        <main class="grid__item one-whole">
 
-	        <section class="grid__item one-whole">
-				<p class="tabTitle">Featured Work</p>
-	        </section>
+		        <!-- Hero Image -->
+		        <section class="grid__item one-whole">
+						<img src="../img/hero.jpg" alt="Hero" title="Hero" class="hero" />
+		        </section>
 
-	        <!-- ToDo: Implement Flexbox -->
-	        <section class="grid__item one-whole">
+		        <!-- Featured Work -->
+		        <section class="grid__item one-whole">
+					<h3 class="tabTitle">Featured Work</h3>
+		        </section>
 
-		        	<div class="grid__item item three-tenths lap-three-tenths palm-one-whole">
-		        		<div>
+		        <!-- Portfolio Tabs -->
+		        <nav class="grid__item one-whole">
+
+		        	<section class="item three-tenths lap-three-tenths palm-one-whole">
+		        		<article>
 		        			<a href="#">
 		        				<img src="../img/slot_1.gif" alt="slot_1" title="slot_1" class="tabImage" />
 		        			</a>
-		        		</div>
+		        		</article>
 
-		        		<div>
+		        		<article>
 		        			<a href="#">
-		        				<p class="tabText"> Appify </p>
+		        				<h4 class="tabText"> Appify </h4>
 		        			</a>
-		        		</div>
-		        	</div><!--
+		        		</article>
+		        	</section><!--
 
-		         --><div class="item three-tenths lap-three-tenths palm-one-whole">
-		        		<div>
+		         --><section class="item three-tenths lap-three-tenths palm-one-whole">
+		        		<article>
 		        			<a href="#">
 		        				<img src="../img/slot_2.gif" alt="slot_2" title="slot_2" class="tabImage" />
 		        			</a>
-		        		</div>
+		        		</article>
 
-		        		<div>
+		        		<article>
 		        			<a href="#">
-		        				<p class="tabText"> Sunflower </p>
+		        				<h4 class="tabText"> Sunflower </h4>
 		        			</a>
-		        		</div>
-		        	</div><!--
+		        		</article>
+		        	</section><!--
 
-		         --><div class="item three-tenths lap-three-tenths palm-one-whole">
-		        		<div>
+		         --><section class="item three-tenths lap-three-tenths palm-one-whole">
+		        		<article>
 		        			<a href="#">
 		        				<img src="../img/slot_3.gif" alt="slot_3" title="slot_3" class="tabImage" />
 		        			</a>
-		        		</div>
+		        		</article>
 
-		        		<div>
+		        		<article>
 		        			<a href="#">
-		        				<p class="tabText"> Bokeh </p>
+		        				<h4 class="tabText"> Bokeh </h4>
 		        			</a>
-		        		</div>
-		        	</div>
-		        </div>
-	        </section>
+		        		</article>
+		        	</section>
+		        </nav>
+		  	</main>
 	   	</div>
 	</div>
 </body>
