@@ -1,8 +1,8 @@
 a {
-  color: $delta;
-  text-decoration: none;
+	color: $delta;
+	text-decoration: none;
 
-  &:hover {
-    color: darken($delta, 30%);
-  }
+	&:hover {
+		color: darken($delta, 30%);
+	}
 }
